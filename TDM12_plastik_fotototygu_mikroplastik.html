@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ТДМ 12 | Пластиктің фотототығуы және микропластик</title>
+<style>
+:root{--green:#176b50;--blue:#245a83;--mint:#b9f2dc;--ink:#17313c;--paper:#f3f7f6;--card:#fff;--line:#dce8e5}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.7;color:var(--ink);background:var(--paper)}
+header{padding:44px 20px;text-align:center;color:#fff;background:linear-gradient(135deg,#124b3d,#176b70,#245a83)}
+header h1{font-size:clamp(26px,4vw,40px);line-height:1.2;margin:0 auto 14px;max-width:900px}
+header p{max-width:850px;margin:8px auto}
+main{max-width:1000px;margin:28px auto;padding:0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,4vw,32px);margin:22px 0;box-shadow:0 5px 20px rgba(23,49,60,.06)}
+h2{color:var(--green);font-size:clamp(21px,3vw,28px);margin:0 0 15px}
+h3{color:var(--blue);margin-bottom:8px}
+.team{border-left:6px solid #36b58a}
+.badge{display:inline-block;background:#e4f6ef;color:#145a44;border-radius:20px;padding:5px 12px;font-size:14px;font-weight:bold}
+.formula{background:#f1f7fa;border-left:5px solid #e4a24c;border-radius:8px;padding:16px;overflow-wrap:anywhere}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}
+.flow div{background:#e8f4ef;border:1px solid #c9e5d9;border-radius:10px;text-align:center;padding:13px 8px;font-weight:bold}
+table{width:100%;border-collapse:collapse;margin:14px 0}
+th,td{padding:12px;border:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#e4f3ed;color:#174b3b}
+a{color:#176e9c;overflow-wrap:anywhere}
+.note{font-size:14px;color:#52656d}
+footer{text-align:center;padding:28px 18px;color:#5b6d73}
+@media(max-width:700px){.flow{grid-template-columns:repeat(2,minmax(0,1fr))}table{font-size:14px}th,td{padding:8px}}
+</style>
+</head>
+<body>
+<header>
+<h1>ТДМ 12 — Жауапты тұтыну және өндіріс</h1>
+<p><strong>Ғылыми тақырып:</strong> Пластик қалдықтарының фотототығуы және микропластиктің түзілуі</p>
+<p>EcoChem–2026 · №4 команда</p>
+</header>
+<main>
+<section class="card team">
+<h2>Команда мүшелері</h2>
+<ol>
+<li><strong>Көпжасар Жансая</strong> — пластик қалдықтарының экологиялық мәселесі</li>
+<li><strong>Түркменбай Мадина</strong> — фотототығудың химиялық механизмі</li>
+<li><strong>Сержан Жанерке</strong> — микропластиктің таралуы</li>
+<li><strong>Нұржан Айгерім</strong> — қалдықтарды азайту жолдары</li>
+</ol>
+</section>
+
+<section class="card">
+<h2>1. Пластик неге экологиялық проблемаға айналды?</h2>
+<p>Пластик жеңіл, берік және арзан болғандықтан қаптамада, тұрмыста, медицинада және өндірісте кең қолданылады. Алайда бір рет қолданылатын бұйымдардың көпшілігі қысқа уақыт ішінде қалдыққа айналады. Пластик қоршаған ортада бірден жойылып кетпейді: күн сәулесі, оттегі, температура және механикалық әсер оның құрылымын өзгертіп, материалды ұсақ бөлшектерге бөлуі мүмкін.</p>
+<p>OECD-тің <em>Global Plastics Outlook</em> есебінде 2019 жылы әлемде шамамен 353 млн тонна пластик қалдығы түзілгені және оның шамамен 9%-ы түпкілікті қайта өңделгені көрсетілген. Бұл — 2019 жылғы жаһандық көрсеткіш, Қазақстанның жеке статистикасы емес.</p>
+<p class="note">Дереккөз: OECD (2022), Global Plastics Outlook. <a href="https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html" target="_blank" rel="noopener">Есепті ашу</a>.</p>
+</section>
+
+<section class="card">
+<h2>2. Күн сәулесі пластикті қалай өзгертеді?</h2>
+<p>Полиэтилен (PE) және полипропилен (PP) сияқты полимерлер табиғи ортада ультракүлгін сәуле, оттегі және жылу әсерінен фото-тотығу процестеріне ұшырауы мүмкін. Реакция полимердегі ақаулардан, қоспалардан немесе бұрын түзілген тотығу топтарынан басталуы ықтимал. Радикалдық реакциялар тізбектің үзілуіне, оттекті функционалдық топтардың пайда болуына және материалдың морттануына әкелуі мүмкін.</p>
+<div class="formula">
+<strong>Жалпыланған радикалдық механизм:</strong><br>
+Инициация: <code>R–H → R•</code> (жарық/жылу әсерінен, механизм жағдайға тәуелді)<br>
+Оттегінің қосылуы: <code>R• + O₂ → ROO•</code><br>
+Тізбекті жалғастыру: <code>ROO• + R–H → ROOH + R•</code><br>
+Нәтиже: полимер тізбегінің үзілуі, карбонил топтарының (<code>C=O</code>) түзілуі және морттану.
+</div>
+<p class="note">Бұл — процесті түсіндіретін сызбанұсқа, барлық пластикке бірдей жүретін толық стехиометриялық теңдеу емес. Ультракүлгін сәуле әр жағдайда C–C байланысын тікелей үзеді деп айту дұрыс емес.</p>
+</section>
+
+<section class="card">
+<h2>3. Микропластик қайда таралады?</h2>
+<p>Микропластик деп әдетте өлшемі 5 мм-ден кіші пластик бөлшектерін атайды. Олар ірі пластиктің үгітілуінен немесе бастапқы ұсақ бөлшектерден пайда болуы мүмкін. Ауа, жауын-шашын, өзендер, ағынды су, топырақ және теңіз ағыстары бөлшектердің таралуына ықпал етеді.</p>
+<div class="flow">
+<div>Пластик бұйым</div><div>UV сәуле + O₂</div><div>Морттану, үгітілу</div><div>Микропластик</div>
+</div>
+<p>Микропластиктің бетіне кейбір химиялық заттар жабыса алады; бұл құбылыс сорбция деп аталады. Бірақ нақты әсер бөлшектің құрамы, өлшемі, қоспалары, ластағыштың түрі және ағзаға түсу жолына байланысты. Микропластиктің адам денсаулығына ұзақ мерзімді әсері әлі де белсенді зерттеліп жатыр, сондықтан барлық ықтимал әсерді толық дәлелденген деп көрсетуге болмайды.</p>
+<p class="note">Қосымша дереккөз: NOAA Marine Debris Program. <a href="https://marinedebris.noaa.gov/" target="_blank" rel="noopener">Ресми ресурс</a>.</p>
+</section>
+
+<section class="card">
+<h2>4. Мәселені азайтудың жолдары</h2>
+<ul>
+<li>Қажетсіз бір реттік пластикті азайтып, қайта пайдаланылатын бұйымдарды таңдау.</li>
+<li>Қалдықтарды жергілікті сұрыптау ережелеріне сай бөлек жинау.</li>
+<li>Өнімнің қызмет ету мерзімін ұзарту және қаптаманы аз қолдану.</li>
+<li>Қайта өңдеу инфрақұрылымын жақсарту және қалдықтардың табиғатқа түсуіне жол бермеу.</li>
+<li>Пластик қалдықтарын жағу немесе табиғатқа тастау сияқты қауіпті әрекеттерден бас тарту.</li>
+</ul>
+<p>ТДМ 12 мақсаты ресурстарды тиімді пайдалануға, қалдықтарды азайтуға және өндіріс пен тұтынуды жауапты етуге бағытталған.</p>
+<p><a href="https://sdgs.un.org/goals/goal12" target="_blank" rel="noopener">БҰҰ-ның ТДМ 12 ресми беті</a></p>
+</section>
+
+<section class="card">
+<h2>5. Қысқаша ғылыми кесте</h2>
+<table>
+<thead><tr><th>Фактор</th><th>Пластикке ықпалы</th><th>Экологиялық маңызы</th></tr></thead>
+<tbody>
+<tr><td>Ультракүлгін сәуле</td><td>Фотохимиялық реакцияларды бастауға үлес қосуы мүмкін</td><td>Материалдың қартаюы мен морттануына ықпал етеді</td></tr>
+<tr><td>Оттегі</td><td>Радикалдармен әрекеттесіп, тотығу тізбегіне қатысады</td><td>Полимер құрылымы мен қасиеттерін өзгертеді</td></tr>
+<tr><td>Жел, толқын, үйкеліс</td><td>Морттанған материалды ұсақтайды</td><td>Бөлшектердің қоршаған ортаға таралуына әкеледі</td></tr>
+<tr><td>Қалдықтарды басқару</td><td>Қалдықтың табиғи ортаға түсу ықтималдығын азайтады</td><td>Ластанудың алдын алудың маңызды шарасы</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="card">
+<h2>6. Бес бақылау сұрағы</h2>
+<ol>
+<li>ТДМ 12 нені көздейді? <strong>Жауап:</strong> Жауапты тұтыну мен өндірісті дамыту.</li>
+<li>Микропластиктің кең қолданылатын өлшемдік анықтамасы қандай? <strong>Жауап:</strong> 5 мм-ден кіші пластик бөлшектері.</li>
+<li>Фото-тотығуға қандай факторлар қатысады? <strong>Жауап:</strong> Жарық, оттегі және жағдайға қарай жылу мен полимер құрамындағы қоспалар/ақаулар.</li>
+<li><code>R• + O₂ → ROO•</code> реакциясында не түзіледі? <strong>Жауап:</strong> Пероксил радикалы.</li>
+<li>Пластик қалдығын азайтудың екі жолын ата. <strong>Жауап:</strong> Бір реттік бұйымдарды азайту, қайта пайдалану, сұрыптау және қайта өңдеу.</li>
+</ol>
+</section>
+
+<section class="card">
+<h2>7. Студенттердің жеке үлесі</h2>
+<table>
+<thead><tr><th>Студент</th><th>Жауапты бағыт</th></tr></thead>
+<tbody>
+<tr><td><strong>Көпжасар Жансая</strong></td><td>Экологиялық мәселені түсіндіру және 1-пост.</td></tr>
+<tr><td><strong>Түркменбай Мадина</strong></td><td>Фото-тотығудың химиялық механизмі және 2-пост.</td></tr>
+<tr><td><strong>Сержан Жанерке</strong></td><td>Микропластиктің түзілуі мен таралуы және 3-пост.</td></tr>
+<tr><td><strong>Нұржан Айгерім</strong></td><td>Қалдықтарды азайту шешімдері және 4-пост.</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="card">
+<h2>Пайдаланылған ғылыми дереккөздер</h2>
+<ol>
+<li>OECD (2022). <em>Global Plastics Outlook: Economic Drivers, Environmental Impacts and Policy Options.</em> <a href="https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html" target="_blank" rel="noopener">https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html</a></li>
+<li>Geyer, R., Jambeck, J. R., &amp; Law, K. L. (2017). Production, use, and fate of all plastics ever made. <em>Science Advances, 3</em>(7), e1700782. <a href="https://doi.org/10.1126/sciadv.1700782" target="_blank" rel="noopener">https://doi.org/10.1126/sciadv.1700782</a></li>
+<li>Andrady, A. L. (2011). Microplastics in the marine environment. <em>Marine Pollution Bulletin, 62</em>(8), 1596–1605. <a href="https://doi.org/10.1016/j.marpolbul.2011.05.030" target="_blank" rel="noopener">https://doi.org/10.1016/j.marpolbul.2011.05.030</a></li>
+<li>United Nations Environment Programme (UNEP). Plastics. <a href="https://www.unep.org/plastic-pollution" target="_blank" rel="noopener">https://www.unep.org/plastic-pollution</a></li>
+<li>United Nations. Sustainable Development Goal 12. <a href="https://sdgs.un.org/goals/goal12" target="_blank" rel="noopener">https://sdgs.un.org/goals/goal12</a></li>
+</ol>
+</section>
+</main>
+<footer>EcoChem–2026 · №4 команда · Ғылыми-көпшілік оқу материалы</footer>
+</body>
+</html>
